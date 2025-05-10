@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#121212</color>
+    <color name="display_background">#1E1E1E</color>
+    <color name="display_text">#FFFFFF</color>
+    <color name="button_text">#FFFFFF</color>
+    
+    <color name="number_button">#2D2D2D</color>
+    <color name="operation_button">#FF9800</color>
+    <color name="scientific_button">#2196F3</color>
+    <color name="memory_button">#9C27B0</color>
+    <color name="special_button">#4CAF50</color>
+    <color name="equals_button">#F44336</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources> 

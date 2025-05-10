@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base button style -->
+    <style name="CalculatorButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="cornerRadius">32dp</item>
+        <item name="android:textColor">@color/button_text</item>
+    </style>
+
+    <!-- Number buttons -->
+    <style name="CalculatorButton.Number" parent="CalculatorButton">
+        <item name="android:backgroundTint">@color/number_button</item>
+    </style>
+
+    <!-- Operation buttons -->
+    <style name="CalculatorButton.Operation" parent="CalculatorButton">
+        <item name="android:backgroundTint">@color/operation_button</item>
+    </style>
+
+    <!-- Scientific function buttons -->
+    <style name="CalculatorButton.Scientific" parent="CalculatorButton">
+        <item name="android:backgroundTint">@color/scientific_button</item>
+    </style>
+
+    <!-- Memory buttons -->
+    <style name="CalculatorButton.Memory" parent="CalculatorButton">
+        <item name="android:backgroundTint">@color/memory_button</item>
+    </style>
+
+    <!-- Special function buttons -->
+    <style name="CalculatorButton.Special" parent="CalculatorButton">
+        <item name="android:backgroundTint">@color/special_button</item>
+    </style>
+
+    <!-- Equals button -->
+    <style name="CalculatorButton.Equals" parent="CalculatorButton">
+        <item name="android:backgroundTint">@color/equals_button</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources> 
